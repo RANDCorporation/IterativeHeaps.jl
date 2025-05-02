@@ -1,6 +1,6 @@
 name = "IterativeHeaps"
 uuid = "e285971d-2591-481a-9e11-e370fbcde40d"
-authors = ["jsyme <jsyme.bus@gmail.com>"]
+authors = ["jsyme <jsyme@tec.mx>"]
 version = "0.1.0"
 
 [deps]
