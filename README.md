@@ -78,11 +78,13 @@ FibonacciHeap{U, T}(
 The heaps do not require any data; instead, they are useful for many coding applications, where users can push a key/value pair to the heap (inline) and pop them in ascending order according to the value. 
 
 
-
 ## Project information
 
-The authors are grateful to RAND Center for Global Risk and Security Advisory Board members Michael Munemann and Paul Cronson for funding this project. All code was developed between April 2023 and October 2024.
+This package is [one of five](https://github.com/RANDCorporation/black-knights-and-dark-network) created during the research phase of a RAND project.
 
+In their report [_North Korea's Black Knights and Dark Network: Towards the Disruption and Typology of DPRK Sanctions Evasion Networks_ (RAND, RR-A3413-1)](https://www.rand.org/pubs/research_reports/RRA3413-1.html) researchers describe how they created a network representation of the DPRK sanctions-evasion system, comprising over 4,100 nodes and 6,500 links derived from UN Panel of Experts reports and the Center for Advanced Defense Studies (C4ADS) dataset. Together, the five code packages supported the team's ability to rank nodes and links, calculate priority scores, and compare the results to sanctioned entities, thus offering a rigorous, computationally driven approach to network disruption and target prioritization.
+
+See the [parent repository](https://github.com/RANDCorporation/black-knights-and-dark-network) for a full list and additional details.
 
 
 ## References/Bibliography
@@ -96,17 +98,19 @@ Daniel Borowski. fib-heap.py. https://github.com/danielborowski/fibonacci-heap-p
 
 ## Copyright and License
 
-Copyright (C) <2024> RAND Corporation. This code is made available under the MIT license.
+Copyright (C) <2025> RAND Corporation. This code is made available under the MIT license.
 
  
 
 ## Authors and Reference
 
-James Syme, 2024.
+James Syme, 2025.
 
-@misc{GDA2024,
+```
+@misc{IH2025,
   author       = {Syme, James},
   title        = {IterativeHeaps.jl: Memory-efficient heaps for iteration and parallelization.},
-  year         = 2024,
-  url = {URLHERE}
+  year         = 2025,
+  url          = {https://github.com/RANDCorporation/IterativeHeaps.jl}
 }
+```
