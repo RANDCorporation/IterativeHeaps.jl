@@ -7,9 +7,8 @@ authors:
     given-names: James
     family-names: Syme
     affiliation: RAND
-repository-code: >-
-  MISSING
-url: MISSING
+repository-code: "https://github.com/RANDCorporation/IterativeHeaps.jl"
+url: "https://github.com/RANDCorporation/black-knights-and-dark-network"
 abstract: >-
   Implementation of K-ary (arbitrary K) and fibonacci heaps for use in 
   distributed, iterative environments. Reduces memory leaks and pressure from
