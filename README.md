@@ -11,7 +11,7 @@ Once pushed, users can efficienctly pop (sometimes referred to as dequeing) the 
 
 `IterartiveHeaps.jl` provides three key heap types:
 
-- **`KAryHeap`**: The `KAryHeap`is a generalization of the binary heap with ``k`` children (where z``k = 2`` is a binary heap); see [Wikipedia](https://en.wikipedia.org/wiki/D-ary_heap) for an explanation.
+- **`KAryHeap`**: The `KAryHeap`is a generalization of the binary heap with ``k`` children (where ``k = 2`` is a binary heap); see [Wikipedia](https://en.wikipedia.org/wiki/D-ary_heap) for an explanation.
 - **`FibonacciHeap`**: See [Princeton Computer Science (Wayne)](https://www.cs.princeton.edu/~wayne/cs423/fibonacci/FibonacciHeapAlgorithm.html) for a psuedocode implementation of the §.
 - **`SimpleQueue`**: A simple queue does not implement sorting, instead allowing for integers to popped in the order they were pushed.
 
